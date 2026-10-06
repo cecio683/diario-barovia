@@ -32,6 +32,7 @@ h1{font-family:var(--f-frak);font-weight:400;font-size:clamp(2.6rem,9vw,4.2rem);
 
 .plate{margin:1.8rem 0;display:grid;gap:.45rem}
 .plate canvas{width:100%;max-width:100%;aspect-ratio:16/7;display:block;border:1px solid var(--rule);background:#0c0b0e}
+.plate img{width:100%;max-width:100%;height:auto;display:block;border:1px solid var(--rule)}
 .plate figcaption{font-family:var(--f-ital);font-style:italic;font-size:.9rem;color:var(--ash);text-align:center}
 
 nav.chapters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--night) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule);display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;padding:.6rem 0}
@@ -151,7 +152,8 @@ footer{margin-top:3rem;text-align:center;color:var(--ash);font-family:var(--f-it
     <blockquote class="chant">Lui è l'antico… Lui è la terra.<small>La cantilena nel sotterraneo</small></blockquote>
     <p>Il gruppo attraversa una stanza con nicchie e reliquie, poi scende per una ripida discesa fino a un cancello. <b>Logan lo solleva</b> e tutti passano in una sala allagata, circa 60 cm d'acqua, con una pedana rialzata al centro. Qui la cantilena si interrompe.</p>
 
-    <img src="blob:https://gemini.google.com/d46a22af-2e3d-44e8-a7ff-6abe5e265488"/>
+    <figure class="plate"><img src="img/sala-allagata.jpg" alt="La sala allagata: un altare di pietra tra le torce e dodici figure incappucciate senza volto" loading="lazy">
+      <figcaption>La sala allagata e i dodici spiriti senza volto</figcaption></figure>
     <!--figure class="plate"><canvas data-scene="crypt" aria-label="Illustrazione: una sala allagata con un altare e figure incappucciate"></canvas>
       <figcaption>La sala allagata e i dodici spiriti senza volto</figcaption></figure-->
 
