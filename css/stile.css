@@ -43,7 +43,7 @@ article.chapter{margin-top:3.5rem;scroll-margin-top:4rem}
 .ch-head h3{font-family:var(--f-ital);font-weight:400;font-size:clamp(1.8rem,5.5vw,2.4rem);line-height:1.15;margin:0;text-wrap:balance}
 .ch-date{font-family:var(--f-ital);font-style:italic;color:var(--ash)}
 h4{font-family:var(--f-display);font-weight:400;font-size:1.2rem;letter-spacing:.06em;color:var(--candle);margin:2rem 0 .3rem}
-p{margin:.5rem 0 1rem;max-width:65ch}
+p{margin:.5rem 0 1rem}
 .chapter > p.first::first-letter,.chapter .lead::first-letter{font-family:var(--f-frak);float:left;font-size:3.6rem;line-height:.85;padding:.35rem .5rem 0 0;color:var(--blood)}
 ul.visions{list-style:none;padding:0;margin:.4rem 0 1.2rem;display:grid;gap:.35rem}
 ul.visions li{padding-left:1.4rem;position:relative}
