@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<radialGradient id="cera" cx="38%" cy="32%" r="75%">
+<stop offset="0" stop-color="#c9574b"/><stop offset=".45" stop-color="#9c2f27"/><stop offset="1" stop-color="#5e1612"/></radialGradient>
+<radialGradient id="conca" cx="55%" cy="60%" r="60%">
+<stop offset="0" stop-color="#8a2620"/><stop offset="1" stop-color="#6a1a15"/></radialGradient>
+</defs>
+<path d="M91.0,44.2 Q92.8,50.0 91.3,55.9 Q89.9,61.7 88.9,68.0 Q87.9,74.4 82.4,77.7 Q76.9,81.0 72.6,85.6 Q68.4,90.3 62.3,91.4 Q56.1,92.6 50.2,91.6 Q44.2,90.5 37.9,90.3 Q31.7,90.1 27.5,85.4 Q23.3,80.8 18.3,77.2 Q13.4,73.5 12.0,67.5 Q10.7,61.5 9.8,55.8 Q8.9,50.0 8.6,43.9 Q8.3,37.8 9.7,31.4 Q11.1,25.0 17.0,21.9 Q22.9,18.7 27.7,15.2 Q32.5,11.7 38.1,8.7 Q43.6,5.6 50.2,4.5 Q56.7,3.3 62.6,6.4 Q68.5,9.5 73.4,13.4 Q78.3,17.3 84.1,20.9 Q89.8,24.4 89.5,31.5 Q89.2,38.5 91.0,44.2 Z" fill="url(#cera)"/>
+<circle cx="50" cy="50" r="31" fill="url(#conca)"/>
+<circle cx="50" cy="50" r="31" fill="none" stroke="#4a100d" stroke-width="2.2"/>
+<circle cx="50" cy="50" r="33.2" fill="none" stroke="#e0897c" stroke-opacity=".35" stroke-width="1.2"/>
+<circle cx="50" cy="50" r="26.5" fill="none" stroke="#4a100d" stroke-opacity=".7" stroke-width="1" stroke-dasharray="1.5 2.2"/>
+<ellipse cx="33" cy="25" rx="9" ry="4.5" fill="#fff" fill-opacity=".18" transform="rotate(-30 33 25)"/>
+</svg>
